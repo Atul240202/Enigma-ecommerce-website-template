@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <script src="https://kit.fontawesome.com/a6b70d0318.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/homepage_css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+
+
+
+    <title>Welcome to Enigma stores</title>
+  </head>
+ <body>
+    <input type="checkbox" id="check_it">
+    <header>
+      <label for="check_it">
+        <i id="sidebar_btn" class="fas fa-bars" ></i>
+      </label>
+      <div class="left_area">
+        <a href="homepage.html"><h3><span>logo</span>Enigma <span>Stores</span></h3> </a>
+
+      </div>
+        <div class="form">
+          <div class="just_padding">
+                      <input type="text" name="" value="" placeholder="ABCD" required>
+                    <button class="color_white">
+       <i class="fas fa-search"></i>            
+          </button>
+          </div>
+
+        </div>
+
+
+        
+
+      <div class="right_area">
+
+        <a href="login_page.html" class="logout_btn">Log in</a>
+      </div>
+    </header>
+    
+    <div class="sidebar" id="sidebar1">
+      <center>
+        <img src="images/e.png" class="profile_img" alt="">
+        <h4>
+          Welcome to <br>Enigma Stores
+        </h4>
+      </center>
+      <a href="mens_fashion.html"><i class="fas fa-mars"></i><span>Mens Styling</span></a>
+      <a href="womens_fashion.html"><i class="fas fa-venus"></i><span>Ladies Styling</span></a>
+      <a href="college.html"><i class="fas fa-university"></i><span>College kapde</span></a>
+      <a href="#"><i class="fas fa-shopping-cart"></i><span>Your Cart</span></a>
+      <a href="#"><i class="fas fa-cart-arrow-down"></i><span>Your Orders</span></a>
+      <a href="#"><i class="fas fa-hands-helping"></i><span>FaQ</span></a>
+    </div>
+
+
+  <div class="se">
+    <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+         <a href="#"><img src="images/1.jpg" alt=""></a> 
+        </div>
+        <div class="slide">
+          <a href="#"><img src="images/2.webp" alt=""></a>
+        </div>
+        <div class="slide">
+          <a href="#"><img src="images/1.jpg" alt=""></a>
+        </div>
+        <div class="slide">
+          <a href="#"><img src="images/2.webp" alt=""></a>
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+  </div>
+
+  <div class="container1">
+    <br>
+    <br>
+    <hr>
+    <div id="center_content">
+      <h1>Welcome to WORLD OF FASHION</h1>
+    </div>
+    
+    <br>
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-1.jpg">
+                        <img class="pic-2" src="images/img-7.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                    <div class="price">$21.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-3.jpg">
+                        <img class="pic-2" src="images/img-4.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="product_page.html">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-1.jpg">
+                        <img class="pic-2" src="images/img-7.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-7.jpg">
+                        <img class="pic-2" src="images/img-8.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <br>
+    <div class="container1">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-1.jpg">
+                        <img class="pic-2" src="images/img-7.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                    <div class="price">$21.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-3.jpg">
+                        <img class="pic-2" src="images/img-4.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-1.jpg">
+                        <img class="pic-2" src="images/img-7.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-7.jpg">
+                        <img class="pic-2" src="images/img-8.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="se2">
+    <div class="slider1">
+      <div class="slides">
+        <div class="slide1 first">
+         <a href="#"><img src="images/2.webp" alt=""></a> 
+        </div>
+      </div>
+  </div>
+</div>
+
+    <br> 
+    <div class="container1">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-1.jpg">
+                        <img class="pic-2" src="images/img-7.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                    <div class="price">$21.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-3.jpg">
+                        <img class="pic-2" src="images/img-4.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-1.jpg">
+                        <img class="pic-2" src="images/img-7.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-7.jpg">
+                        <img class="pic-2" src="images/img-8.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container1">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-1.jpg">
+                        <img class="pic-2" src="images/img-2.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                    <div class="price">$21.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-3.jpg">
+                        <img class="pic-2" src="images/img-4.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="se3">
+    <div class="slider2">
+      <div class="slides1">
+        <div class="slide2 first">
+         <a href="#"><img src="images/1.jpg" alt=""></a> 
+        </div>
+      </div>
+  </div>
+</div>
+        </div>
+    </div>
+</div>
+
+  <div class="container1">
+    <div class="row">
+<div class="col-md-6 col-sm-6">
+  <div class="se3">
+    <div class="slider2">
+      <div class="slides1">
+        <div class="slide2 first">
+         <a href="#"><img src="images/2.webp" alt=""></a> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-1.jpg">
+                        <img class="pic-2" src="images/img-7.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                    <div class="price">$21.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-3.jpg">
+                        <img class="pic-2" src="images/img-4.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+<hr>
+<h1 class="center_content notable_font" > Some trending setz</h1>
+<hr>
+<div class="container1">
+    <div class="row">
+        <div class="col-md-2 col-sm-4">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-1.jpg">
+                        <img class="pic-2" src="images/img-7.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                    <div class="price">$21.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-3.jpg">
+                        <img class="pic-2" src="images/img-4.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-2 col-sm-4">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-3.jpg">
+                        <img class="pic-2" src="images/img-4.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-2 col-sm-4">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-7.jpg">
+                        <img class="pic-2" src="images/img-8.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+                      <div class="col-md-2 col-sm-4">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-7.jpg">
+                        <img class="pic-2" src="images/img-8.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+                      <div class="col-md-2 col-sm-4">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-7.jpg">
+                        <img class="pic-2" src="images/img-8.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-light btn-lg btn-block">For more Click me..!!</button>
+</div>
+<hr>
+<br>
+<hr>
+<h1 class="center_content1 notable_font "><span>Featured</span><span class="white_space">____</span>  Collection</h1>
+<hr>
+<div class="container1">
+    <div class="row">
+        <div class="col-md-4 col-sm-4">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-1.jpg">
+                        <img class="pic-2" src="images/img-7.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                    <div class="price">$21.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-3.jpg">
+                        <img class="pic-2" src="images/img-4.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-4 col-sm-4">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images/img-3.jpg">
+                        <img class="pic-2" src="images/img-4.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Button Top</a></h3>
+                    <div class="price discount"><span>$17.00</span> $13.60</div>
+                </div>
+            </div>
+        </div> 
+
+    </div>
+
+</div>
+<div class="container1">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+<div class="se3">
+    <div class="slider2">
+      <div class="slides1">
+        <div class="slide2 first">
+         <a href="#"><img src="images/1.jpg" alt=""></a> 
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+<div class="se3">
+    <div class="slider2">
+      <div class="slides1">
+        <div class="slide2 first">
+         <a href="#"><img src="images/2.webp" alt=""></a> 
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container1 background_black">
+  <div class="row">
+    <div class="col-md-3 col-sm-12">
+      <br>
+
+      <h3 class="name_blue"><span>Enigma </span>Stores</h3>
+      <h5 class="name_blue">Customer Service</h5>
+      <br>
+      
+        <a href="#">Customer care</a><br>
+        <a href="#">Track Order</a><br>
+        <a href="#">Return Order</a><br>
+        <a href="#">Cancel order</a>
+        <br>
+        <br>
+        <br>
+        <a href="#">15 Days Return policy</a>
+
+      
+    </div>
+    <div class="col-md-3 col-sm-12">
+      
+      <br>
+      <br>
+      <h5 class="name_blue">Company</h5>
+      <br>
+      <a href="#">About us</a><br>
+      <a href="#">blogs</a><br>
+      <a href="#">Social media handle</a><br>
+      <a href="#"><i class="fab fa-instagram"></i></a>&nbsp <a href="#"><i class="fas fa-at"></i></a> &nbsp<a href="#"><i class="fab fa-linkedin-in"></i></a> &nbsp <a href="#"><i class="fas fa-phone-square"></i></a>
+      <br>
+      <hr class="name_blue">
+      <br>
+      <a href="#"><h6 class="name_blue">We would love to connect with you</h6></a>
+    </div>
+    <div class="col-md-3 col-sm-12">
+      <br>
+      <br>
+      <h5 class="name_blue">Our Address</h5><br>
+      <p class="name_blue">Xyz xyz city</p><br>
+      <p class="name_blue">Pincode - 000000</p>
+    </div>
+    <div class="col-md-3 col-sm-12">
+      <br>
+      <br>
+      
+      <h5 class="name_blue">For being updated from latest deals of our website</h5>
+          <label for="exampleFormControlInput1" class="name_blue">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+    </div>
+
+     <hr>
+  <p class="name_blue">*All copyrights to Enigma stores*</p>
+  </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  
+  </body>
+</html>
